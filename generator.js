@@ -47,7 +47,7 @@ async function createRepository(domain, org, repo) {
   }
 
   async function main() {
-    let names = generateNames(1000);
+    let names = generateNames(600);
     console.log(names);
 
     names.forEach(async function(name) {
